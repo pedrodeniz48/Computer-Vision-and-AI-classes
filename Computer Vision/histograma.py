@@ -32,4 +32,6 @@ if __name__ == '__main__':
     ax[1, 0].imshow(img_eq, cmap='gray', vmin=0, vmax=255)
     ax[1, 1].bar(list(bins), list(hist_eq[:, 0]))
 
+    fig.savefig('images/Cat_Hists_Graph')
+
     plt.show()
